@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <!-- header  -->
+
+    
+
+<nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <!-- <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo"> -->
+        <span class="self-center text-10 font-semibold whitespace-nowrap dark:text-white">Emmanuel'sDigitalTechnology</span>
+    </a>
+    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="contact.html" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="index.html" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page"><i class="bi bi-houses-fill"></i>Home</a>
+        </li>
+        <li>
+          <a href="about.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"> <i class="bi bi-file-person-fill"></i>About</a>
+        </li>
+        <li>
+          <a href="service.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"><i class="bi bi-tools"></i>Services</a>
+        </li>
+        <li>
+          <a href="portfolio.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"><i class="bi bi-journal-richtext"></i>portfolio</a>
+        </li>
+        <li>
+            <a href="contact.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"> <i class="bi bi-telephone-forward"></i>Contact</a>
+          </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  
+<!-- Hero -->
+<section class="bg-cover bg-no-repeat bg-[url('ds.jpg')] bg-gray-700 bg-blend-multiply">
+  <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+
+    <!-- Heading -->
+    <h1 class="mb-4 font-extrabold tracking-tight leading-none text-white md:text-xl lg:text-6xl"
+        data-aos="fade-down" data-aos-delay="200">
+      Welcome to Emmanuel's Technology
+    </h1>
+
+    <!-- Subtext -->
+    <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48"
+       data-aos="fade-up" data-aos-delay="400">
+      Here, we focus on markets where technology, innovation, and capital can unlock long-term 
+      value and drive economic growth in technology.
+    </p>
+
+    <!-- Buttons -->
+    <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0"
+         data-aos="zoom-in" data-aos-delay="600">
+      <a href="contact.html" 
+         class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+        Get started
+        <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+        </svg>
+      </a>
+      <a href="about.html" 
+         class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
+        Learn more
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- AOS Library -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1200, // animation speed
+    once: true      // only animate once per load
+  });
+</script>
+
+
+
+
+    <!-- About -->
+<section class="max-w-6xl mx-auto px-4 py-12">
+  <div class="grid md:grid-cols-2 gap-8 items-center">
+
+    <!-- Image Section -->
+    <div data-aos="fade-right" data-aos-duration="1000">
+      <img src="second.png" 
+           alt="Sample Image" 
+           class="w-80 l-60 rounded-lg shadow-lg">
+    </div>
+
+    <!-- Text Section -->
+    <div class="space-y-6" data-aos="fade-left" data-aos-duration="1000">
+      <h2 class="text-3xl font-bold text-gray-900">
+        About us
+      </h2>
+      <p class="text-gray-600">
+        Emmanuel's Digital Technology is a cutting-edge digital systems 
+        solutions developer and provider. We bring our clients’ ideas to life by offering 
+        premium Website development. Here, we leverage cutting-edge technologies to
+        bring out the best web development that simplify processes, improve user engagement and increase your ROI.
+      </p>
+
+      <!-- Anchor tag styled as button -->
+      <a href="about.html"
+         class="inline-block px-5 py-2 text-white bg-gray-600 hover:bg-gray-900 font-medium rounded-lg shadow focus:outline-none focus:ring-4 focus:ring-green-300"
+         data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
+         View More
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- AOS Library -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // animation speed
+    once: false     // animate every scroll
+  });
+</script>
+
+
+    <!-- Services -->
+<section class="max-w-6xl mx-auto px-4 py-16">
+  <h2 class="text-3xl font-bold text-center text-gray-900 mb-12" data-aos="fade-up">
+    Our Services
+  </h2>
+
+  <div class="grid md:grid-cols-2 gap-8">
+    
+    <!-- Web Design Service -->
+    <div class="p-6 bg-gray-800 rounded-2xl shadow-md hover:shadow-lg transition shadow-sm"
+         data-aos="fade-up" data-aos-delay="100">
+      <div class="flex flex-col items-center text-center">
+        <div class="w-16 h-16 flex items-center justify-center rounded-full bg-blue-100 mb-4">
+          <i class="bi bi-laptop text-3xl text-blue-600"></i>
+        </div>
+        <h3 class="text-xl font-semibold text-white">Web Design</h3>
+        <p class="mt-3 text-gray-300">
+          We create responsive, modern, and user-friendly websites that look
+          amazing on all devices.
+        </p>
+      </div>
+    </div>
+
+    <!-- UI/UX Design Service -->
+    <div class="p-6 bg-gray-800 rounded-2xl shadow-md hover:shadow-lg transition shadow-sm"
+         data-aos="fade-up" data-aos-delay="200">
+      <div class="flex flex-col items-center text-center">
+        <div class="w-16 h-16 flex items-center justify-center rounded-full bg-green-100 mb-4">
+          <i class="bi bi-palette text-3xl text-green-600"></i>
+        </div>
+        <h3 class="text-xl font-semibold text-white">UI/UX Design</h3>
+        <p class="mt-3 text-gray-300">
+          Our UI/UX design services focus on delivering smooth user experiences 
+          with clean and creative interfaces.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Button Section -->
+<div class="flex justify-center mt-4">
+  <a href="about.html"
+     class="text-white bg-gray-800 hover:bg-gray-900 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none"
+     data-aos="zoom-in" data-aos-delay="400">
+    View More
+  </a>
+</div>
+
+<!-- AOS Library -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // speed of animation
+    once: false     // animate every time on scroll
+  });
+</script>
+
+
+   <!-- portfolio  -->
+
+   <section class="max-w-6xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">
+      My Portfolio
+    </h2>
+
+    <div class="grid gap-8 md:grid-cols-3">
+      
+      <!-- Portfolio Item 1 -->
+      <div class="bg-white rounded-2xl shadow-md hover:shadow-lg transition p-4">
+        <img src="first.png" 
+             alt="Project 1" 
+             class="w-full h-48 object-cover rounded-lg mb-4">
+        <h3 class="text-lg font-semibold text-gray-900">Project One</h3>
+        <a href="#" class="text-blue-600 hover:underline text-sm">View Project</a>
+      </div>
+
+      <!-- Portfolio Item 2 -->
+      <div class="bg-white rounded-2xl shadow-md hover:shadow-lg transition p-4">
+        <img src="first.png" 
+             alt="Project 2" 
+             class="w-full h-48 object-cover rounded-lg mb-4">
+        <h3 class="text-lg font-semibold text-gray-900">Project Two</h3>
+        <a href="#" class="text-blue-600 hover:underline text-sm">View Project</a>
+      </div>
+
+      <!-- Portfolio Item 3 -->
+      <div class="bg-white rounded-2xl shadow-md hover:shadow-lg transition p-4">
+        <img src="first.png" 
+             alt="Project 3" 
+             class="w-full h-48 object-cover rounded-lg mb-4">
+        <h3 class="text-lg font-semibold text-gray-900">Project Three</h3>
+        <a href="#" class="text-blue-600 hover:underline text-sm">View Project</a>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- Full Width Section -->
+<section class="w-full bg-gray-800 py-16">
+  <div class="max-w-4xl mx-auto text-center px-4">
+    <h2 class="text-3xl font-bold text-white mb-4">Ready to Get Started?</h2>
+    <p class="text-blue-100 mb-6">
+      Join us today and take the first step toward building something amazing.
+    </p>
+    <!-- Anchor tag styled as button -->
+    <a href="contact.html"
+       class="inline-block px-6 py-3 text-white bg-gray-500 hover:bg-gray-800 font-medium rounded-lg shadow focus:outline-none focus:ring-4 focus:ring-green-300">
+      Get Started
+    </a>
+  </div>
+</section>
+</div>
+
+
+
+<!-- Skills & Experience Section -->
+<section class="bg-[whitesmoke] py-16 px-6">
+  <div class="max-w-6xl mx-auto text-center">
+    <!-- Heading -->
+    <h2 class="text-3xl font-bold text-gray-800 mb-4" data-aos="fade-down">Skills & Experience</h2>
+    <p class="text-gray-600 mb-12" data-aos="fade-up" data-aos-delay="200">
+      Passionate Web Developer & UI/UX Designer with <span class="font-semibold">3 years of experience</span>
+      creating responsive websites and intuitive user experiences.
+    </p>
+
+    <!-- Skills Grid -->
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- Web Development -->
+      <div class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow" data-aos="fade-right">
+        <h3 class="text-xl font-semibold text-gray-700 mb-3">Web Development</h3>
+        <p class="text-gray-600 mb-4">Building modern, responsive, and high-performance websites using HTML, CSS, JavaScript, and frameworks.</p>
+        <!-- Progress bars -->
+        <div class="space-y-4">
+          <div>
+            <p class="text-sm font-medium text-gray-700">HTML / CSS</p>
+            <div class="w-full bg-gray-200 rounded-full h-2.5">
+              <div class="bg-green-600 h-2.5 rounded-full w-[95%] animate-grow"></div>
+            </div>
+          </div>
+          <div>
+            <p class="text-sm font-medium text-gray-700">JavaScript</p>
+            <div class="w-full bg-gray-200 rounded-full h-2.5">
+              <div class="bg-gray-500 h-2.5 rounded-full w-[85%] animate-grow delay-300"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- UI/UX Design -->
+      <div class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow" data-aos="fade-left">
+        <h3 class="text-xl font-semibold text-gray-700 mb-3">UI/UX Design</h3>
+        <p class="text-gray-600 mb-4">Designing intuitive interfaces and user flows with Figma, Adobe XD, and usability-focused design systems.</p>
+        <!-- Progress bars -->
+        <div class="space-y-4">
+          <div>
+            <p class="text-sm font-medium text-gray-700">UI Design</p>
+            <div class="w-full bg-gray-200 rounded-full h-2.5">
+              <div class="bg-gray-600 h-2.5 rounded-full w-[90%] animate-grow"></div>
+            </div>
+          </div>
+          <div>
+            <p class="text-sm font-medium text-gray-700">User Research</p>
+            <div class="w-full bg-gray-200 rounded-full h-2.5">
+              <div class="bg-blue-600 h-2.5 rounded-full w-[80%] animate-grow delay-300"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Years of Experience -->
+    <div class="mt-12" data-aos="zoom-in" data-aos-delay="400">
+      <span class="text-5xl font-extrabold text-gray-700">3+</span>
+      <p class="text-gray-700 text-lg">Years of Professional Experience</p>
+    </div>
+  </div>
+</section>
+
+<!-- AOS Animation Library -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1200,
+    once: true
+  });
+</script>
+
+<!-- Custom Animations -->
+<style>
+  @keyframes grow {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  .animate-grow {
+    animation: grow 2s ease forwards;
+  }
+</style>
+
+
+
+ <!-- Our Process -->
+<section class="py-16 bg-gray-900">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold text-white mb-12">Our Process</h2>
+
+    <!-- First Row (3 steps) -->
+    <div class="flex flex-col md:flex-row justify-center gap-10 mb-12">
+      
+      <!-- Step 1 -->
+      <div class="flex flex-col items-center flex-1 max-w-sm p-6 bg-gray-800 rounded-2xl shadow-md hover:shadow-lg transition"
+           data-aos="fade-up" data-aos-delay="100">
+        <div class="w-16 h-16 flex items-center justify-center bg-blue-100 text-blue-600 rounded-full mb-4 shadow">
+          <i class="bi bi-telephone-forward text-xl"></i>
+        </div>
+        <h3 class="text-lg font-semibold mb-2 text-white">Contact Us</h3>
+        <p class="text-gray-300 text-sm">Reach out via phone, email, or our form to share your project ideas.</p>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="flex flex-col items-center flex-1 max-w-sm p-6 bg-gray-800 rounded-2xl shadow-md hover:shadow-lg transition"
+           data-aos="fade-up" data-aos-delay="200">
+        <div class="w-16 h-16 flex items-center justify-center bg-green-100 text-green-600 rounded-full mb-4 shadow">
+          <i class="bi bi-graph-up-arrow text-xl"></i>
+        </div>
+        <h3 class="text-lg font-semibold mb-2 text-white">We Analyze Your Need</h3>
+        <p class="text-gray-300 text-sm">We review your requirements and craft a tailored strategy for success.</p>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="flex flex-col items-center flex-1 max-w-sm p-6 bg-gray-800 rounded-2xl shadow-md hover:shadow-lg transition"
+           data-aos="fade-up" data-aos-delay="300">
+        <div class="w-16 h-16 flex items-center justify-center bg-purple-100 text-purple-600 rounded-full mb-4 shadow">
+          <i class="bi bi-code-slash text-xl"></i>
+        </div>
+        <h3 class="text-lg font-semibold mb-2 text-white">Design & Development</h3>
+        <p class="text-gray-300 text-sm">We create intuitive designs and develop robust solutions tailored to your needs.</p>
+      </div>
+    </div>
+
+    <!-- Second Row (2 steps) -->
+    <div class="flex flex-col md:flex-row justify-center gap-10">
+      
+      <!-- Step 4 -->
+      <div class="flex flex-col items-center flex-1 max-w-sm p-6 bg-gray-800 rounded-2xl shadow-md hover:shadow-lg transition"
+           data-aos="fade-up" data-aos-delay="400">
+        <div class="w-16 h-16 flex items-center justify-center bg-yellow-100 text-yellow-600 rounded-full mb-4 shadow">
+          <i class="fas fa-bug text-xl"></i>
+        </div>
+        <h3 class="text-lg font-semibold mb-2 text-white">Testing & Optimization</h3>
+        <p class="text-gray-300 text-sm">We test thoroughly and optimize for performance, security, and scalability.</p>
+      </div>
+
+      <!-- Step 5 -->
+      <div class="flex flex-col items-center flex-1 max-w-sm p-6 bg-gray-800 rounded-2xl shadow-md hover:shadow-lg transition"
+           data-aos="fade-up" data-aos-delay="500">
+        <div class="w-16 h-16 flex items-center justify-center bg-red-100 text-red-600 rounded-full mb-4 shadow">
+          <i class="bi bi-rocket-takeoff-fill text-xl"></i>
+        </div>
+        <h3 class="text-lg font-semibold mb-2 text-white">Launch & Support</h3>
+        <p class="text-gray-300 text-sm">We launch your project and provide continuous support and improvements.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- AOS Library -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // animation speed
+    once: false     // true = animate only once, false = animate every scroll
+  });
+</script>
+
+
+
+<!-- Why We Need a Website Section -->
+<section class="py-16">
+  <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
+    
+    <!-- Left Content -->
+    <div class="flex-1" data-aos="fade-right" data-aos-duration="1000">
+      <h2 class="text-3xl font-bold text-gray-900 mb-4">Why We Need a Website</h2>
+      <p class="text-gray-600 mb-4">
+        A website is essential for building credibility, reaching more customers, 
+        and showcasing your services or products 24/7.  
+      </p>
+      <p class="text-gray-600 mb-4">
+        It allows you to connect with a global audience, share your story, 
+        and create trust through professional design and functionality.
+      </p>
+      <p class="text-gray-600">
+        Whether you’re a business, freelancer, or organization, 
+        a website ensures your presence is always accessible online.
+      </p>
+    </div>
+
+    <!-- Right Image -->
+    <div class="flex-1 flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+      <img src="why.jpg" 
+           alt="Why Website" 
+           class="rounded-lg shadow-lg w-30 md:w-4/5">
+    </div>
+
+  </div>
+</section>
+
+<!-- AOS Library (Add before </body>) -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+<!-- ,,,,,,,,,,,,,,,,,,,,,,, Testimonials,,,,,,,,,,,,,,,,,,,,,, -->
+
+<section class="bg-gray-50 py-12">
+  <div class="max-w-4xl mx-auto px-4">
+    <!-- Title -->
+    <h2 class="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-10">
+      Testimonials
+    </h2>
+
+    <!-- Carousel Wrapper -->
+    <div id="testimonial-carousel" class="relative w-full" data-carousel="slide">
+      <!-- Carousel Items -->
+      <div class="relative h-64 overflow-hidden rounded-2xl">
+
+        <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <div class="bg-white rounded-2xl shadow p-6 flex flex-col justify-center h-full">
+            <div class="flex items-center mb-4">
+              <img class="w-12 h-12 rounded-full mr-3" 
+                   src="https://randomuser.me/api/portraits/men/32.jpg" 
+                   alt="Client 1">
+              <div>
+                <h3 class="text-lg font-semibold text-gray-800">James Okoro</h3>
+                <p class="text-sm text-gray-500">Business Owner</p>
+              </div>
+            </div>
+            <p class="text-gray-600 leading-relaxed">
+              “The website design exceeded my expectations. Clean, modern, and easy for my customers to use. Highly recommended!”
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <div class="bg-white rounded-2xl shadow p-6 flex flex-col justify-center h-full">
+            <div class="flex items-center mb-4">
+              <img class="w-12 h-12 rounded-full mr-3" 
+                   src="https://randomuser.me/api/portraits/women/44.jpg" 
+                   alt="Client 2">
+              <div>
+                <h3 class="text-lg font-semibold text-gray-800">Amaka Johnson</h3>
+                <p class="text-sm text-gray-500">Student</p>
+              </div>
+            </div>
+            <p class="text-gray-600 leading-relaxed">
+              “The computer training classes were interactive and practical. I gained real skills I now use in my job.”
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <div class="bg-white rounded-2xl shadow p-6 flex flex-col justify-center h-full">
+            <div class="flex items-center mb-4">
+              <img class="w-12 h-12 rounded-full mr-3" 
+                   src="https://randomuser.me/api/portraits/men/55.jpg" 
+                   alt="Client 3">
+              <div>
+                <h3 class="text-lg font-semibold text-gray-800">Samuel Lee</h3>
+                <p class="text-sm text-gray-500">App Client</p>
+              </div>
+            </div>
+            <p class="text-gray-600 leading-relaxed">
+              “The app development service was smooth and professional. The final product is fast, reliable, and user-friendly.”
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider Controls -->
+      <button type="button" class="absolute top-1/2 left-0 z-30 flex items-center justify-center h-10 w-10 -translate-y-1/2 bg-white rounded-full shadow" data-carousel-prev>
+        ‹
+      </button>
+      <button type="button" class="absolute top-1/2 right-0 z-30 flex items-center justify-center h-10 w-10 -translate-y-1/2 bg-white rounded-full shadow" data-carousel-next>
+        ›
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Flowbite JS (make sure this is added before </body>) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+
+
+
+
+
+<!-- ,,,,,,,,,,,,,,,,,,,,,,,, footer ,,,,,,,,,,,,,,,,,,,,,, -->
+
+<section class="py-16">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-gray-900 text-center mb-12">Contact Us</h2>
+
+    <div class="flex flex-col md:flex-row gap-10">
+      
+      <!-- Left Section: Contact Info -->
+      <div class="flex-1 bg-gray-800  shadow-lg rounded-xl p-6 space-y-4">
+        <h3 class="text-xl font-semibold text-white mb-4">Get in Touch</h3>
+        <p class="flex items-center gap-3 text-white">
+          <i class="fas fa-phone text-blue-600"></i> +234 913 743 8813
+        </p>
+        <p class="flex items-center gap-3 text-white">
+          <i class="fab fa-telegram text-blue-500"></i> @yourtelegram
+        </p>
+        <p class="flex items-center gap-3 text-white">
+          <i class="fab fa-linkedin text-blue-700"></i> linkedin.com/in/yourprofile
+        </p>
+      </div>
+
+      <!-- Right Section: Contact Form -->
+      <div class="flex-1 bg-gray-800 shadow-lg rounded-xl p-6">
+        <form class="space-y-4">
+          <div>
+            <label class="block text-sm font-medium text-white mb-1">Your Name</label>
+            <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" required>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-white mb-1">Your Email</label>
+            <input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" required>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-white mb-1">Your Message</label>
+            <textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" required></textarea>
+          </div>
+          <button type="submit" class="w-full bg-gray-600 text-black px-6 py-3 rounded-lg justify-center hover:bg-white shadow">
+            Send Message
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ,,,,,,,,,,,,,,,,,,,,,,,,,,,, last ,,,,,,,,,,,,,,,,,,,,, -->
+
+<footer class="w-full bg-gray-800 py-16">
+  <div class="w-full  mx-auto p-4 md:py-8">
+      <div class="sm:flex sm:items-center sm:justify-between">
+          <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+              <span class="self-center text-10 font-semibold whitespace-nowrap dark:text-white">Emmanuel'sDigitalTechnology</span>
+          </a>
+          <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+            <li>
+              <a href="index.html" class="hover:underline me-4 md:me-6">Home</a>
+          </li>
+              <li>
+                  <a href="about.html" class="hover:underline me-4 md:me-6">About</a>
+              </li>
+              <li>
+                  <a href="service.html" class="hover:underline me-4 md:me-6">Services</a>
+              </li>
+              <li>
+                  <a href="portfolio.html" class="hover:underline me-4 md:me-6">Porfolio</a>
+              </li>
+              <li>
+                  <a href="contact.html" class="hover:underline"> Contact</a>
+              </li>
+          </ul>
+      </div>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="https://flowbite.com/" class="hover:underline">Emmanuel'sDigitalTechnology</a>. All Rights Reserved.</span>
+  </div>
+</footer>
+
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/2349137438813" target="_blank" 
+     class="fixed bottom-6 right-6 flex items-center gap-2 bg-green-500 text-white px-4 py-3 rounded-full  shadow-lg hover:bg-green-600 transition-all">
+    <i class="fab fa-whatsapp text-2xl w-full"></i>
+    <span class="hidden sm:inline font-medium">Chat with us</span>
+  </a>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
+
+</body>
+</html>
