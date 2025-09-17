@@ -11,8 +11,20 @@
 
 </head>
 <body>
-   
-   
+    <!-- header  -->
+
+    
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tailwind Header</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-gray-100">
+    
     <!-- NAVBAR -->
     <header class="bg-gray-800 text-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -54,11 +66,11 @@
       </div>
     </header>
     
-
-
-
-
-
+  
+    
+    
+    
+  
 <!-- Hero -->
 <section class="bg-cover bg-no-repeat bg-[url('ds.jpg')] bg-gray-700 bg-blend-multiply">
   <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
@@ -651,7 +663,15 @@
 
 
 
-
+  <!-- Script to toggle mobile menu -->
+  <script>
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('menu');
+    
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
 
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
